@@ -1,5 +1,6 @@
 var gulp = require('gulp');
 var handlebars = require('gulp-static-handlebars');
+var Promise = require('bluebird');
 
 function getData() {
     return Promise.resolve({contents: 'whatever'});
