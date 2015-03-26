@@ -1,5 +1,9 @@
 Test
 
-<h2> Test 2</h2>
+{{> header}}
 
-{{menu}}
+<div class="contents">{{contents}}<div>
+
+<div class="menu_helper">{{#menu}}REPLACE ME!{{/menu}}</div>
+
+{{> footer}}
