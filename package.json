@@ -11,6 +11,6 @@
   "dependencies": {
     "bluebird": "^2.9.15",
     "gulp": "^3.8.11",
-    "gulp-static-handlebars": "^1.0.12"
+    "gulp-static-handlebars": "^1.0.13"
   }
 }
